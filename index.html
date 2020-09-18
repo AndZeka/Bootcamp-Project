@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container primary m-0 navbar-container">
+            <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="logo" class="rounded-circle logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/lake.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+                <h5 class="text-uppercase font-weight-bold">Discover Kosovo</h5>
+                <p>Where You Are Always Welcome!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/rugova2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+                <h5 class="text-uppercase font-weight-bold">It's your time to explore</h5>
+                <p>Beautiful Nature of Kosovo!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/sharri.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h5 class="text-uppercase font-weight-bold">Be Amazed</h5>
+                <p>With the outstanding views!</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <div class="services" id="services">
+        <div class="container">
+            <div class="title col-12 text-center mb-lg-5">
+                <h2>Our Services</h2>
+                <span class="borderForTitle extra">
+                    <span class="borderForTitleColor"></span>
+                </span>
+            </div>
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="item col-lg-4 col-sm-12 text-center">
+                        <i class="fas fa-star"></i>
+                        <h5 class="pt-lg-5 pt-sm-3">Accommodation</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="pt-3 text-justify">The hospitality is made up of two services: the provision of overnight accommodation for people travelling away from home, and options for people dining outside their home.</p>
+                    </div>
+                    <div class="item col-lg-4 col-sm-12 text-center">
+                        <i class="fas fa-globe-americas"></i>
+                        <h5 class="pt-lg-5 pt-sm-3">Tour</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="pt-3 text-justify">Public trips are excursions that are open to anyone and everyone in the general public. We have
+                            actually operated thousands of public trips all throughout Kosovo.</p>
+        
+                    </div>
+                    <div class="item col-lg-4 col-sm-12 text-center">
+                        <i class="fas fa-plane"></i>
+                        <h5 class="pt-lg-5 pt-sm-3">Flights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="pt-3 text-justify">For those who intend to make laid-back journeys or take pleasure in unwinding holidays, we can provide flight arrangements with the best price.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center pt-5 pb-5 pt-lg-5 pb-lg-5" id="packages">
+        <div class="row pl-lg-5 ">
+            <h3 class="col-12 pb-5 package-title">Our Most Popular Packges</h3>
+            <div class="packages col-lg-4 col-sm-12 col-md-6 pb-4 ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="imgs/prizren.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center pt-4 pb-4 pl-5 pr-5">
+                        <h5 class="card-title">12 Days, 13 Nights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="card-text font-weight-bold pt-2">Prizren</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="packages col-lg-4 col-sm-12 col-md-6 pb-4 ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="imgs/kuqisht.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center pt-4 pb-4 pl-5 pr-5">
+                        <h5 class="card-title">6 Days, 7 Nights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="card-text font-weight-bold pt-2">Peje</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="packages col-lg-4 col-sm-12 col-md-6 pb-4 ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="imgs/gjakove.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center pt-4 pb-4 pl-5 pr-5">
+                        <h5 class="card-title">11 Days, 10 Nights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="card-text font-weight-bold pt-2">Gjakove</p>
+                    </div>
+                </div>
+            </div>
+            <div class="packages col-lg-4 col-sm-12 col-md-6 pb-4 ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="imgs/prishtina.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center pt-4 pb-4 pl-5 pr-5">
+                        <h5 class="card-title">12 Days, 13 Nights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="card-text font-weight-bold pt-2">Prishtina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="packages col-lg-4 col-sm-12 col-md-6 pb-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="imgs/gjilan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center pt-4 pb-4 pl-5 pr-5">
+                        <h5 class="card-title">8 Days, 7 Nights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="card-text font-weight-bold pt-2">Gjilani</p>
+                    </div>
+                </div>
+            </div>
+            <div class="packages col-lg-4 col-sm-12 col-md-6 pb-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="imgs/ujman.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center pt-4 pb-4 pl-5 pr-5">
+                        <h5 class="card-title">6 Days, 7 Nights</h5>
+                        <span class="borderForTitle">
+                            <span class="borderForTitleColor"></span>
+                        </span>
+                        <p class="card-text font-weight-bold pt-2">Mitrovice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="socials" id="socials">
+        <div class="container pt-5 pb-5">
+            <div class="social-title text-center pb-5">
+                <h5>Follow Us</h5>
+            </div>
+            <div class="social-icons d-flex align-items-center justify-content-center">
+                <a href="https://www.youtube.com/" class="pl-3 pr-3"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://www.facebook.com/" class="pl-3 pr-3"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.gmail.com/" class="pl-3 pr-3"><i class="fab fa-google-plus-square"></i></a>
+                <a href="https://www.twitter.com/" class="pl-3 pr-3"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/" class="pl-3 pr-3"><i class="fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="places pt-5" id="places">
+        <h5 class="pb-5 text-center">Incredible Places</h5>
+        <div class="container row place-container">
+            <div class="card card-places col-lg-4 col-sm-6" style="width: 18rem;">
+                <img src="imgs/brezovica.jpg" class="card-img-top" alt="...">
+                <div class="overlay overlay-first">
+                    <h2>Place:</h2>
+                    <p>
+                        Brezovice
+                    </p>
+                </div>
+            </div>
+            <div class="card card-places col-lg-4 col-sm-6" style="width: 18rem;">
+                <img src="imgs/bjeshketEPejes.jpg" class="card-img-top" alt="...">
+                <div class="overlay">
+                    <h2>Place:</h2>
+                    <p>
+                        Bjeshket e Pejes
+                    </p>
+                </div>
+            </div>
+            <div class="card card-places col-lg-4 col-sm-6" style="width: 18rem;">
+                <img src="imgs/kalajaPrizrenit.jpg" class="card-img-top" alt="...">
+                <div class="overlay">
+                    <h2>Place:</h2>
+                    <p>
+                        Kalaja e Prizrenit
+                    </p>
+                </div>
+            </div>
+            <div class="card card-places col-lg-4 col-sm-6" style="width: 18rem;">
+                <img src="imgs/uraFshejt.jpg" class="card-img-top" alt="...">
+                <div class="overlay">
+                    <h2>Place:</h2>
+                    <p>
+                        Ura e Fshejte
+                    </p>
+                </div>
+            </div>
+            <div class="card card-places col-lg-4 col-sm-6" style="width: 18rem;">
+                <img src="imgs/mirusha.jpg" class="card-img-top" alt="...">
+                <div class="overlay overlay-mirusha">
+                    <h2>Place:</h2>
+                    <p>
+                        Ujvara e Mirushes
+                    </p>
+                </div>
+            </div>
+            <div class="card card-places col-lg-4 col-sm-6" style="width: 18rem;">
+                <img src="imgs/lidhjaPrizrenit.jpg" class="card-img-top" alt="...">
+                <div class="overlay">
+                    <h2>Place:</h2>
+                    <p>
+                        Lidhja e Prizrenit
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact pt-5 pb-5" id="contact">
+        <div class="container">
+            <div class="title col-12 text-center mb-5">
+                <h2>Our Contact</h2>
+                <span class="borderForTitle extra">
+                    <span class="borderForTitleColor"></span>
+                </span>
+            </div>
+
+            <div class="container pt-lg-5">
+                <div class="row">
+                    <div class="item col-lg-4 col-sm-12 col-md-4 text-center ">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5 class="pt-2">Address</h5>
+                        <p class="pt-2 text-center">Sheshi Zahir Pajaziti, Prishtine, Kosovo</p>
+                    </div>
+                    <div class="item col-lg-4 col-sm-12 col-md-4 text-center mt-3 mt-lg-0">
+                        <i class="fas fa-phone-alt"></i>
+                        <h5 class="pt-2">Phone</h5>
+                        <p class="pt-2 text-center">+383 44 123 456</p>
+        
+                    </div>
+                    <div class="item col-lg-4 col-sm-12 col-md-4 text-center mt-3 mt-lg-0">
+                        <i class="fas fa-envelope"></i>
+                        <h5 class="pt-2">E-mail</h5>
+                        <p class="pt-2 text-center">imageofkosovo@test.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe-list" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="subscribe-title col-lg-6 col-sm-12">
+                    <h3 class="text-center">Join Our Subscribe List</h3>
+                </div>
+                <div class="subscribe-email col-lg-6 col-sm-12">
+                    <form action="" method="">
+                        <input type="email" name="email" placeholder="Enter your email here ..."><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-us pt-5 pb-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about col-4">
+                    <div class="about-title">
+                        <h3 class="us-title">About Us</h3>
+                    </div>
+                    <div class="about-description">
+                        <p>We always find the best solutions for our customers.</p>
+                    </div>
+                </div>
+                <div class="learn-more col-4 pl-5">
+                    <div class="learn-more-title">
+                        <h3 class="us-title">Learn More</h3>
+                    </div>
+                    <div class="learn-more-list">
+                        <ul class="list-unstyled">
+                            <li>Prishtine</li>
+                            <li>Gjokove</li>
+                            <li>Prizren</li>
+                            <li>Peje</li>
+                            <li>Mitrovice</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu col-4 pl-4">
+                    <div class="menu-title">
+                        <h3 class="us-title">Menu</h3>
+                    </div>
+                    <div class="menu-desciption">
+                        <p>Our Most Popular Packges</p>
+                        <p>Incredible Places</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map" id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.0736083376482!2d21.158540214971058!3d42.65979552411325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee6c0e98fc9%3A0x68298b0dad29c173!2sSheshi%20Zahir%20Pajaziti%2C%20Prishtin%C3%AB!5e0!3m2!1sen!2s!4v1600349979092!5m2!1sen!2s" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="copyright pt-5 pb-5" id="copyright">
+        <div class="container">
+            <p class="text-center">&copy;  Copyright 2020 - Web Layout Design - All Rights Reserved</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>         
